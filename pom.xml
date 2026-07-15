@@ -12,7 +12,6 @@
     <properties>
         <serenity.version>5.3.8</serenity.version>
         <junit5.version>6.0.3</junit5.version>
-        <junit.version>4.13.2</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <tags></tags>
         <webdriver.base.url></webdriver.base.url>
@@ -81,12 +80,6 @@
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
             <version>${junit5.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
